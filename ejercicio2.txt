@@ -1,0 +1,28 @@
+Ejercicio 2
+Se debe desarrollar una aplicación para realizar 
+los trámites de altas, bajas, modificaciones y 
+consultas de los datos de los mismos.
+Debemos asignar un número de trámite único 
+en el sistema y una fecha de inicio. La 
+información mínima que se debe guardar de 
+un alumno son el DNI, nombre, dirección, la 
+carrera en la que está matriculado, así como 
+las asignaturas que está cursando actualmente. 
+También se debe almacenar su historial 
+académico, donde deben aparecer todas las 
+asignaturas cursadas y sus respectivas notas y 
+exámenes finales.
+Debe tenerse en cuenta que una carrera sólo
+se da en una sede determinada. Se tienen que 
+gestionar las asignaturas que se imparten en una 
+carrera, teniendo en cuenta que una asignatura 
+sólo se puede dar en un único curso. Algunos de 
+los datos que pueden consultarse de una 
+asignatura son: nombre, cantidad de horas, 
+cuatrimestre en el que se dicta y tipo (obligatoria, 
+transversal, optativa). Debe guardarse la 
+información de los profesores que dictan las 
+distintas asignaturas de la carrera, como mínimo: 
+DNI, nombre, dirección y departamento al que 
+pertenece. También se podrá consultar las 
+distintas asignaturas que imparte.

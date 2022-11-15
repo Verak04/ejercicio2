@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: wheat;
+}
+
+header,
+nav {
+    background: rgb(244, 232, 210);
+}
+
+
+
+#ingresar_sede {
+    height: 30px;
+    margin-top: 40px;
+    padding: 5px;
+   width: 20%;
+   margin-left: 77%;
+   margin-right: 3%;
+   
+}
+
+#sedes ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 30px
+}
+
+#sedes li {
+    width: 90%;
+    height: 200px;
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+    background: rgb(186, 213, 213);
+}
+
+#sedes li:hover {
+    margin: 10px;
+}
