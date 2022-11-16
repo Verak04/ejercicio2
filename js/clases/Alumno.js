@@ -1,4 +1,4 @@
-const Alumno =
+export const Alumno =
     class Alumno {
         #nombre = undefined;
         #apellido = undefined;
@@ -64,6 +64,5 @@ const Alumno =
         }
 
     }
-console.log(Alumno.toString());
 
-module.export = Alumno;
+

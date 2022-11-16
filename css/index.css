@@ -18,10 +18,9 @@ nav {
     height: 30px;
     margin-top: 40px;
     padding: 5px;
-   width: 20%;
-   margin-left: 77%;
-   margin-right: 3%;
-   
+    width: 20%;
+    margin-left: 77%;
+    margin-right: 3%;
 }
 
 #sedes ul {
@@ -41,4 +40,36 @@ nav {
 
 #sedes li:hover {
     margin: 10px;
+}
+
+
+
+form {
+    width: 50%;
+    position: absolute;
+    margin-left: 25%;
+    background: linear-gradient(90deg, rgb(131, 190, 235, 0.5), rgba(3, 2, 2, 0.5));
+    padding: 3%;
+    box-sizing: border-box;
+
+}
+
+input {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#boton {
+    background-color: rgb(63, 87, 114);
+    color: white;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+    background: rgb(34, 47, 61);
 }

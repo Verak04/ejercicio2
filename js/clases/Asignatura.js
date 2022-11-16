@@ -1,4 +1,4 @@
-const Asignatura =
+export const Asignatura =
     class Asignatura {
         #nombre = undefined;
         #cantHoras = undefined;
@@ -41,3 +41,4 @@ const Asignatura =
         }
     }
 
+    
