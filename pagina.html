@@ -1,15 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./icomoon/style.css">
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
-
 <body>
     <header>
         <h3>header</h3>
@@ -17,34 +14,24 @@
     <nav>
         <h3>navbar</h3>
     </nav>
-    
     <main id="campus">
-        <div id="editar_sede">
-            
+        <div class="editar_sede">
+            <h3>Código:</h3>
+            <h3>Institución:</h3>
+            <h3>Dirección:</h3>
+            <h3>Carrera:</h3>
         </div>
-    
-        <button id="ingresar_sede"><a href="#formulario">Ingrear</a></button>
-        <div id="sedes" class="lista_sedes">
-
-        </div>
-        <div id="formulario">
-            <form action='' id="form">
+        <div id="formulario" class="editar_sede">
+            <form action='' id="form_editar">
                 <input id='codigo' type='text' placeholder='Codigo de institución.'>
                 <input id='nombre' type='text' placeholder='Nombre de institución.'>
                 <input id='direccion' type='text' placeholder='Direción.'>
                 <input id='titulo' type='text' placeholder='Carrera dictada.'>
-                <input type='button' value='Ingresar' id='boton' onclick='ingresar_sede()'>
+                <input type='button' value='Modificar' id='boton' onclick='ingresar_sede()'>
             </form>
         </div>
 
-
     </main>
-    <script src="./js/campus.js"></script>
-    <script src="./js/clases/Alumno.js" type="module"></script>
-    <script src="./js/clases/Asignatura.js" type="module"></script>
-    <script src="./js/clases/Carrera.js" type="module"></script>
-    <script src="./js/clases/Sede.js" type="module"></script>
-
+    <div></div>
 </body>
-
 </html>

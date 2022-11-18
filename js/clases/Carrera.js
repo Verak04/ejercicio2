@@ -10,7 +10,7 @@ const Carrera =
         }
         
         setTitulo(titulo) {
-            this.#titulo;
+            this.#titulo=titulo;
         }
         
         toString() {

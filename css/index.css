@@ -15,7 +15,7 @@ nav {
 
 
 #ingresar_sede {
-    height: 30px;
+    height: 50px;
     margin-top: 40px;
     padding: 5px;
     width: 20%;
@@ -23,13 +23,13 @@ nav {
     margin-right: 3%;
 }
 
-#sedes ul {
+.lista_sedes {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 30px
 }
 
-#sedes li {
+.lista_sedes ul {
     width: 90%;
     height: 200px;
     list-style: none;
@@ -38,16 +38,71 @@ nav {
     background: rgb(186, 213, 213);
 }
 
-#sedes li:hover {
+.lista_sedes li {
+    padding: 5px;
+    font-size: x-large;
+}
+
+#sedes ul:hover {
     margin: 10px;
 }
 
+#editar,
+#borrar {
+    width: 40%;
+    margin: 5%;
+    height: 20px;
+    padding: 0;
+    font-size: small;
+    background: rgb(160, 194, 194);
+}
 
+#editar:hover,
+#borrar:hover {
+    background: rgb(120, 146, 146);
+    color: wheat;
+}
 
-form {
-    width: 50%;
-    position: absolute;
-    margin-left: 25%;
+#editar_sede{
+    position:absolute;
+    width: 100%;
+    
+}
+
+.editar_sede{
+    width: 450px;
+    margin: auto;
+    background:rgb(249, 239, 220);
+    border-style: double;
+    border-radius: 7px;
+    
+}
+.editar_sede h3{
+    margin: 3%;
+}
+#form_editar #boton{
+    width: 40%;
+    margin:2% 30%;
+
+}
+#form_editar{
+    width: 100%;
+    padding:3%;
+    box-sizing: border-box;
+}
+#form_editar input{
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+#form{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background: linear-gradient(90deg, rgb(131, 190, 235, 0.5), rgba(3, 2, 2, 0.5));
     padding: 3%;
     box-sizing: border-box;
@@ -55,9 +110,9 @@ form {
 }
 
 input {
-    width: 100%;
+    width: 95%;
     margin-bottom: 25px;
-    padding: 15px;
+    padding: 10px;
     box-sizing: border-box;
     font-size: 17px;
     border: none;
@@ -66,10 +121,26 @@ input {
 #boton {
     background-color: rgb(63, 87, 114);
     color: white;
-    padding: 20px;
+    position: relative;
+    padding: 10px;
+    width: 50%;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 #boton:hover {
     cursor: pointer;
     background: rgb(34, 47, 61);
+}
+
+
+
+
+@media (max-width:600px) {
+    .lista_sedes {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

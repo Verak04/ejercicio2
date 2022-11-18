@@ -1,9 +1,10 @@
 const Sede =
-    class Sede {
+    class Sede extends Carrera{
         #codigo = undefined;
         #nombre = undefined;
         #direccion = undefined;
-        constructor(codigo, nombre, direccion) {
+        constructor(titulo, codigo, nombre, direccion) {
+            super(titulo);
             this.#codigo = codigo;
             this.#nombre = nombre;
             this.#direccion = direccion;
@@ -19,13 +20,13 @@ const Sede =
         }
 
         setCodigo(codigo) {
-            this.#codigo;
+            this.#codigo=codigo;
         }
         setNombre(nombre) {
-            this.#nombre;
+            this.#nombre=nombre;
         }
         setDireccion(direccion) {
-            this.#direccion
+            this.#direccion=direccion;
         }
 
         toString() {

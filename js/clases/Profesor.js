@@ -1,7 +1,7 @@
 /*DNI, nombre, dirección y departamento al que 
 pertenece. También se podrá consultar las 
 distintas asignaturas que imparte.*/
-const Profesor =
+export const Profesor =
     class Profesor {
         #dni = undefined;
         #nombre = undefined;
